@@ -1,0 +1,68 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "humanalign-rag"
+version = "0.1.0"
+description = "Neighbour-grounded query judging for human-aligned synthetic evaluation of multilingual and code-mixed retrieval"
+requires-python = ">=3.11,<3.12"
+# Loose lower bounds here; exact pins live in requirements.txt (see env/freeze_*.txt).
+# torch is installed separately from the CUDA index (see README).
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "pyarrow",
+    "scikit-learn",
+    "pyyaml",
+    "python-dotenv",
+    "pydantic>=2",
+    "typer",
+    "loguru",
+    "rich",
+    "regex",
+    "jinja2",
+    "ollama",
+    "FlagEmbedding",
+    "sentence-transformers",
+    "faiss-cpu",
+    "bm25s",
+    "ranx",
+    "ir_datasets",
+    "datasets",
+    "huggingface_hub",
+    "fasttext-wheel",
+    "datasketch",
+    "requests",
+    "beautifulsoup4",
+    "lxml",
+    "streamlit",
+    "plotly",
+    "matplotlib",
+    "seaborn",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[project.scripts]
+ha = "ha.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ha"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = ["notebooks", "paper"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "gpu: needs a CUDA GPU",
+    "ollama: needs a running Ollama server",
+]

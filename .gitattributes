@@ -1,0 +1,5 @@
+# LF everywhere: prompt templates and configs are hashed byte-for-byte (FROZEN.json, cache
+# keys), so Windows and Linux/Kaggle checkouts must be identical.
+* text=auto eol=lf
+*.parquet binary
+*.zip binary

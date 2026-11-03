@@ -1,0 +1,83 @@
+{
+  "run_id": "E0-20260928T003743-14d0b0",
+  "dataset": "fiqa",
+  "metrics": {
+    "C1": {
+      "ndcg@10": 0.238,
+      "mrr@10": 0.2959,
+      "hit_rate@1": 0.2238,
+      "hit_rate@5": 0.3951,
+      "recall@100": 0.4946
+    },
+    "C2": {
+      "ndcg@10": 0.2384,
+      "mrr@10": 0.2924,
+      "hit_rate@1": 0.2176,
+      "hit_rate@5": 0.3889,
+      "recall@100": 0.5113
+    },
+    "C3": {
+      "ndcg@10": 0.4128,
+      "mrr@10": 0.5032,
+      "hit_rate@1": 0.4182,
+      "hit_rate@5": 0.6142,
+      "recall@100": 0.7125
+    },
+    "C4": {
+      "ndcg@10": 0.3578,
+      "mrr@10": 0.4344,
+      "hit_rate@1": 0.3426,
+      "hit_rate@5": 0.5509,
+      "recall@100": 0.6932
+    },
+    "C5": {
+      "ndcg@10": 0.4354,
+      "mrr@10": 0.5181,
+      "hit_rate@1": 0.4352,
+      "hit_rate@5": 0.6327,
+      "recall@100": 0.7125
+    },
+    "C6": {
+      "ndcg@10": 0.3582,
+      "mrr@10": 0.4548,
+      "hit_rate@1": 0.3827,
+      "hit_rate@5": 0.5679,
+      "recall@100": 0.4946
+    },
+    "C7": {
+      "ndcg@10": 0.4328,
+      "mrr@10": 0.5192,
+      "hit_rate@1": 0.4352,
+      "hit_rate@5": 0.6404,
+      "recall@100": 0.6932
+    }
+  },
+  "checks": {
+    "C1": {
+      "got": 0.238,
+      "reference": 0.236,
+      "tol": 0.02,
+      "within": true,
+      "gate": true,
+      "source": "BEIR (Thakur et al., NeurIPS 2021 D&B), BM25 on FiQA-2018"
+    },
+    "C3": {
+      "got": 0.4128,
+      "reference": 0.413,
+      "tol": 0.03,
+      "within": true,
+      "gate": false,
+      "source": "DRAMA (arXiv 2502.18460) Table 7, M3-BGE-Dense on FiQA; warning only"
+    }
+  },
+  "latency_ms_per_query": {
+    "C1": 0.97,
+    "C2": 0.96,
+    "C3": 16.21,
+    "C4": 17.48,
+    "C5": 649.83,
+    "C6": 875.81,
+    "C7": 783.91
+  },
+  "gate_passed": true
+}

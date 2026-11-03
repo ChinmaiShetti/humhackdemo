@@ -1,0 +1,28 @@
+<!doctype html>
+<!-- HiAQ survey entry link (D-014). Sends each visitor to one of the 25 forms uniformly at
+     random. Hosting it (e.g. GitHub Pages) is a team decision (H-05). Paste the 25 published
+     form URLs printed by tools/make_forms.gs into FORMS. No cookies, no tracking. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How do you search for help?</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 3rem 1rem; text-align: center; color: #222; }
+  </style>
+</head>
+<body>
+  <p>Opening the survey…</p>
+  <p><a id="fallback" href="#">Click here if nothing happens.</a></p>
+  <script>
+    var FORMS = [
+      // "https://docs.google.com/forms/d/e/.../viewform",  x25
+    ];
+    if (FORMS.length) {
+      var url = FORMS[Math.floor(Math.random() * FORMS.length)];
+      document.getElementById('fallback').href = url;
+      window.location.replace(url);
+    }
+  </script>
+</body>
+</html>

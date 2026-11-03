@@ -1,0 +1,101 @@
+﻿example_id,text,current_label,provisional_label,review_status,review_priority,human_final_label,review_comment,adjudication_note,source
+L01,digilocker marksheet not showing what to do,EN,EN,PASS,PASS,EN,Clear English-dominant wording; named service is not enough to make it mixed.,,ORIGINAL_30
+L02,how to update mobile number in aadhaar,EN,EN,PASS,PASS,EN,English sentence with service/entity names; no Hindi lexicon or code-mixing.,,ORIGINAL_30
+L03,upi payment failed but money deducted,EN,EN,PASS,PASS,EN,English-dominant with a common service term.,,ORIGINAL_30
+L04,PF withdrawal status pending for 2 weeks,EN,EN,PASS,PASS,EN,English-dominant; PF is a domain acronym.,,ORIGINAL_30
+L05,can i file ITR after due date,EN,EN,PASS,PASS,EN,English-dominant with the common tax acronym ITR.,,ORIGINAL_30
+L06,forgot my e-filing password,EN,EN,PASS,PASS,EN,English phrase; e-filing is a domain term.,,ORIGINAL_30
+L07,how to link pan with aadhaar online,EN,EN,PASS,PASS,EN,English-dominant; PAN/Aadhaar are named entities.,,ORIGINAL_30
+L08,is my pf account active,EN,EN,PASS,PASS,EN,English-dominant despite PF acronym.,,ORIGINAL_30
+L09,mera paisa kat gaya par transaction nahi hua,ROM_HI,ROM_HI,PASS,PASS,ROM_HI,Clear Romanised Hindi sentence; “transaction” is an English loanword commonly used inside Hindi.,,ORIGINAL_30
+L10,aadhaar me naam kaise badle,ROM_HI,ROM_HI,PASS,PASS,ROM_HI,Clear Romanised Hindi syntax and vocabulary with a named entity.,,ORIGINAL_30
+L11,pf ka paisa kab tak aayega,ROM_HI,ROM_HI,PASS,PASS,ROM_HI,Clear Romanised Hindi syntax; PF is a domain acronym.,,ORIGINAL_30
+L12,mujhe apna uan nahi pata chal raha,ROM_HI,ROM_HI,PASS,PASS,ROM_HI,Clear Romanised Hindi with a domain acronym.,,ORIGINAL_30
+L13,kya main ghar baithe pan card bana sakta hu,ROM_HI,ROM_HI,PASS,PASS,ROM_HI,Romanised Hindi syntax; PAN/card are service terms.,,ORIGINAL_30
+L14,refund abhi tak kyu nahi aaya,ROM_HI,ROM_HI,REVIEW,REVIEW,ROM_HI,"Hindi syntax is clear, but “refund” is an English lexical item. Keep ROM_HI under a Hindi-dominant class definition; this is the main borderline case.",,ORIGINAL_30
+L15,otp nahi aa raha hai,ROM_HI,ROM_HI,PASS,PASS,ROM_HI,Romanised Hindi syntax with the domain acronym OTP.,,ORIGINAL_30
+L16,upi payment fail ho gaya par paise kat gaye,HINGLISH,HINGLISH,PASS,PASS,HINGLISH,Clear English nouns/verb plus Hindi syntax and inflection; genuine code-mixing.,,ORIGINAL_30
+L17,mera account block ho gaya please help,HINGLISH,HINGLISH,PASS,PASS,HINGLISH,Hindi frame plus English phrase “please help”; mixed language is natural.,,ORIGINAL_30
+L18,itr file karna hai but portal slow hai,HINGLISH,HINGLISH,PASS,PASS,HINGLISH,English technical nouns/verb embedded in Hindi grammar; explicit mixed syntax.,,ORIGINAL_30
+L19,passbook download nahi ho raha please help karo,HINGLISH,HINGLISH,PASS,PASS,HINGLISH,English action phrase plus Hindi grammar and an English request phrase.,,ORIGINAL_30
+L20,bank account change karna hai epfo me,HINGLISH,HINGLISH,PASS,PASS,HINGLISH,English nouns/verb plus Hindi structure; domain name is an entity.,,ORIGINAL_30
+L21,income tax refund status kaise check kare,HINGLISH,HINGLISH,PASS,PASS,HINGLISH,English service phrase embedded in Romanised Hindi syntax.,,ORIGINAL_30
+L22,digilocker me document nahi dikh raha,HINGLISH,HINGLISH,PASS,PASS,HINGLISH,English entity/noun with Hindi grammar; natural mixed query.,,ORIGINAL_30
+L23,e-kyc complete nahi ho raha kya karu,HINGLISH,HINGLISH,PASS,PASS,HINGLISH,English/domain term plus Hindi grammar.,,ORIGINAL_30
+L24,mobile number link karne ka process kya hai,HINGLISH,HINGLISH,PASS,PASS,HINGLISH,Several English terms with Romanised Hindi syntax; clearly mixed.,,ORIGINAL_30
+L25,pan card ko aadhaar se kaise link kare,HINGLISH,HINGLISH,PASS,PASS,HINGLISH,English/domain terms plus Hindi case markers and syntax; mixed.,,ORIGINAL_30
+L26,आधार में मोबाइल नंबर कैसे अपडेट करें,DEV_HI,DEV_HI,PASS,PASS,DEV_HI,Devanagari script with Hindi syntax; script rule makes the class unambiguous.,,ORIGINAL_30
+L27,पीएफ का पैसा कब आएगा,DEV_HI,DEV_HI,PASS,PASS,DEV_HI,Devanagari script with Hindi syntax.,,ORIGINAL_30
+L28,मेरा रिफंड अभी तक नहीं आया,DEV_HI,DEV_HI,PASS,PASS,DEV_HI,Devanagari script; English-origin “refund” is transliterated into Hindi script.,,ORIGINAL_30
+L29,UPI से पैसे कट गए लेकिन payment fail,DEV_HI,DEV_HI,REVIEW,REVIEW,DEV_HI,"Mixed script plus an English phrase. Under a script-dominant class this is borderline, because the intended class depends on whether DEV_HI means “any Devanagari query” or requires overwhelmingly Hindi-script content.",,ORIGINAL_30
+L30,ಆಧಾರ್ ಅಪ್ಡೇಟ್ ಹೇಗೆ ಮಾಡುವುದು,OTHER,OTHER,PASS,PASS,OTHER,Kannada script; it does not fit EN/ROM_HI/HINGLISH/DEV_HI.,,ORIGINAL_30
+L31,how can I change the bank account linked to my tax profile,,EN,LIKELY,LIKELY,EN,English-dominant service query.,,ADDED_70
+L32,where can I see the status of my refund,,EN,LIKELY,LIKELY,EN,English-dominant; refund is a common English service term.,,ADDED_70
+L33,my verification code is not arriving,,EN,LIKELY,LIKELY,EN,English sentence; no Hindi lexical material.,,ADDED_70
+L34,how do I download my contribution statement,,EN,LIKELY,LIKELY,EN,English-dominant despite domain vocabulary.,,ADDED_70
+L35,I changed jobs and need to move my old savings,,EN,LIKELY,LIKELY,EN,Natural English information need.,,ADDED_70
+L36,my account is locked after several attempts,,EN,LIKELY,LIKELY,EN,English-dominant.,,ADDED_70
+L37,can I submit the return after the deadline,,EN,LIKELY,LIKELY,EN,English-dominant with tax terminology.,,ADDED_70
+L38,the document is not visible in the app,,EN,LIKELY,LIKELY,EN,English-dominant generic service query.,,ADDED_70
+L39,I need help checking whether my payment was reversed,,EN,LIKELY,LIKELY,EN,English-dominant.,,ADDED_70
+L40,how long does it take for the claim to be processed,,EN,LIKELY,LIKELY,EN,English-dominant service query.,,ADDED_70
+L41,can I update my phone number online,,EN,LIKELY,LIKELY,EN,English-dominant.,,ADDED_70
+L42,why is my application still pending,,EN,LIKELY,LIKELY,EN,English-dominant.,,ADDED_70
+L43,mera mobile number update nahi ho raha,,ROM_HI,LIKELY,LIKELY,ROM_HI,Mostly Romanised Hindi; English-origin mobile/update terms are embedded in Hindi syntax.,,ADDED_70
+L44,mujhe apna account number nahi mil raha,,ROM_HI,LIKELY,LIKELY,ROM_HI,Romanised Hindi syntax dominates.,,ADDED_70
+L45,paise wapas kab tak milenge,,ROM_HI,LIKELY,LIKELY,ROM_HI,Clear Romanised Hindi.,,ADDED_70
+L46,mujhe password yaad nahi hai,,ROM_HI,LIKELY,LIKELY,ROM_HI,Romanised Hindi with one common English loanword.,,ADDED_70
+L47,mera form submit nahi ho raha,,ROM_HI,LIKELY,LIKELY,ROM_HI,Hindi syntax dominates; submit is an English loan/action term.,,ADDED_70
+L48,kahan se status check karu,,ROM_HI,LIKELY,LIKELY,ROM_HI,"Borderline service verb, but Hindi share should remain high.",,ADDED_70
+L49,mujhe payment ka paisa nahi mila,,ROM_HI,LIKELY,LIKELY,ROM_HI,Romanised Hindi with common English loanword payment.,,ADDED_70
+L50,kya mera account band ho gaya hai,,ROM_HI,LIKELY,LIKELY,ROM_HI,Clear Romanised Hindi.,,ADDED_70
+L51,kab tak approval mil jayega,,ROM_HI,LIKELY,LIKELY,ROM_HI,Romanised Hindi with one English-origin noun.,,ADDED_70
+L52,naam galat hai kaise theek karu,,ROM_HI,LIKELY,LIKELY,ROM_HI,Clear Romanised Hindi.,,ADDED_70
+L53,otp aa gaya lekin login nahi hua,,ROM_HI,HUMAN_REVIEW,HUMAN_REVIEW,ROM_HI,Contains English-domain OTP and login alongside Hindi syntax; useful threshold case.,,ADDED_70
+L54,refund ka status kya hai,,ROM_HI,HUMAN_REVIEW,HUMAN_REVIEW,HINGLISH,Mostly Hindi syntax with two English-origin service terms; useful EN/HINGLISH boundary.,,ADDED_70
+L55,document nahi mil raha,,ROM_HI,HUMAN_REVIEW,HUMAN_REVIEW,HINGLISH,Very short query; one English service noun plus Hindi frame makes token-share threshold important.,,ADDED_70
+L56,mera refund status online check nahi ho raha,,HINGLISH,LIKELY,LIKELY,HINGLISH,English service phrase embedded in Hindi syntax.,,ADDED_70
+L57,account verify karne ke baad bhi login nahi ho raha,,HINGLISH,LIKELY,LIKELY,HINGLISH,Multiple English action/service terms within Hindi grammar.,,ADDED_70
+L58,mobile number change karna hai but option nahi mil raha,,HINGLISH,LIKELY,LIKELY,HINGLISH,Clear mixed-language structure.,,ADDED_70
+L59,claim submit ho gaya but amount abhi nahi aaya,,HINGLISH,LIKELY,LIKELY,HINGLISH,English service terms plus Hindi clauses.,,ADDED_70
+L60,mujhe old account ko new one se link karna hai,,HINGLISH,LIKELY,LIKELY,HINGLISH,English noun/adjective phrase plus Hindi syntax.,,ADDED_70
+L61,payment successful dikha raha hai but paisa nahi aaya,,HINGLISH,LIKELY,LIKELY,HINGLISH,Clear code-mixing.,,ADDED_70
+L62,portal open ho raha hai lekin form load nahi hota,,HINGLISH,LIKELY,LIKELY,HINGLISH,English technical terms embedded in Hindi.,,ADDED_70
+L63,passbook me latest entry show nahi ho rahi,,HINGLISH,LIKELY,LIKELY,HINGLISH,English technical phrase within Hindi grammar.,,ADDED_70
+L64,password reset karne ke liye link nahi mil raha,,HINGLISH,LIKELY,LIKELY,HINGLISH,English action terms plus Hindi syntax.,,ADDED_70
+L65,mera request reject ho gaya reason kaise pata chalega,,HINGLISH,HUMAN_REVIEW,HUMAN_REVIEW,HINGLISH,Mixed English nouns/verb with Hindi grammar; useful boundary against ROM_HI.,,ADDED_70
+L66,आधार में पता कैसे बदलें,,DEV_HI,LIKELY,LIKELY,DEV_HI,Devanagari Hindi.,,ADDED_70
+L67,मेरा खाता लॉक हो गया है,,DEV_HI,LIKELY,LIKELY,DEV_HI,Devanagari Hindi.,,ADDED_70
+L68,पासवर्ड याद नहीं है क्या करूँ,,DEV_HI,LIKELY,LIKELY,DEV_HI,Devanagari Hindi with English-origin password in Devanagari script.,,ADDED_70
+L69,पैसे वापस कब मिलेंगे,,DEV_HI,LIKELY,LIKELY,DEV_HI,Devanagari Hindi.,,ADDED_70
+L70,पीएफ खाते का विवरण कहाँ मिलेगा,,DEV_HI,LIKELY,LIKELY,DEV_HI,Devanagari Hindi with domain acronym transliterated/embedded.,,ADDED_70
+L71,आवेदन अभी तक लंबित क्यों है,,DEV_HI,LIKELY,LIKELY,DEV_HI,Devanagari Hindi.,,ADDED_70
+L72,मोबाइल नंबर अपडेट कैसे करें,,DEV_HI,LIKELY,LIKELY,DEV_HI,Devanagari script with common English-derived term.,,ADDED_70
+L73,मेरी जमा राशि दिखाई नहीं दे रही,,DEV_HI,LIKELY,LIKELY,DEV_HI,Devanagari Hindi.,,ADDED_70
+L74,लॉगिन नहीं हो रहा है क्या करूँ,,DEV_HI,LIKELY,LIKELY,DEV_HI,Devanagari script; English-origin login is transliterated into Devanagari.,,ADDED_70
+L75,क्लेम का पैसा अभी तक नहीं आया,,DEV_HI,LIKELY,LIKELY,DEV_HI,Devanagari Hindi with English-origin loanword.,,ADDED_70
+L76,यूपीआई से पैसे कटे लेकिन भुगतान नहीं हुआ,,DEV_HI,LIKELY,LIKELY,DEV_HI,Devanagari Hindi with UPI entity and Hindi clause.,,ADDED_70
+L77,मेरा रिफंड अभी तक नहीं मिला,,DEV_HI,LIKELY,LIKELY,DEV_HI,Devanagari script; refund is transliterated.,,ADDED_70
+L78,फॉर्म भरने के बाद आगे क्या करना है,,DEV_HI,LIKELY,LIKELY,DEV_HI,Devanagari Hindi.,,ADDED_70
+L79,ओटीपी नहीं आ रहा है,,DEV_HI,LIKELY,LIKELY,DEV_HI,Devanagari script; OTP transliterated.,,ADDED_70
+L80,বাংলায় আমার অ্যাকাউন্টে টাকা আসেনি,,OTHER,LIKELY,LIKELY,OTHER,Bengali script.,,ADDED_70
+L81,বাংলায় মোবাইল নম্বর কীভাবে বদলাব,,OTHER,LIKELY,LIKELY,OTHER,Bengali script.,,ADDED_70
+L82,ನನ್ನ ಪಾಸ್‌ಬುಕ್ ಕಾಣಿಸುತ್ತಿಲ್ಲ,,OTHER,LIKELY,LIKELY,OTHER,Kannada script.,,ADDED_70
+L83,ಆಧಾರ್‌ನಲ್ಲಿ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ ಹೇಗೆ ಬದಲಾಯಿಸಬೇಕು,,OTHER,LIKELY,LIKELY,OTHER,Kannada script.,,ADDED_70
+L84,ನನ್ನ ಖಾತೆಗೆ ಹಣ ಬಂದಿಲ್ಲ,,OTHER,LIKELY,LIKELY,OTHER,Kannada script.,,ADDED_70
+L85,ಪಾಸ್ವರ್ಡ್ ಮರೆತುಹೋಗಿದೆ ಏನು ಮಾಡಬೇಕು,,OTHER,LIKELY,LIKELY,OTHER,Kannada script.,,ADDED_70
+L86,என் கணக்கில் பணம் வரவில்லை,,OTHER,LIKELY,LIKELY,OTHER,Tamil script.,,ADDED_70
+L87,மொபைல் எண்ணை எப்படி மாற்றுவது,,OTHER,LIKELY,LIKELY,OTHER,Tamil script.,,ADDED_70
+L88,मेरा खाता open नहीं हो रहा,,DEV_HI,HUMAN_REVIEW,HUMAN_REVIEW,DEV_HI,"Contains Devanagari plus Latin text. Under the frozen rule, Devanagari-script text belongs to DEV_HI; keep as an audit case for implementation behavior on mixed script.",,ADDED_70
+L89,ನನ್ನ PF status pending ಇದೆ,,OTHER,HUMAN_REVIEW,HUMAN_REVIEW,OTHER,Kannada + Latin mixed; useful non-target-script case.,,ADDED_70
+L90,എന്റെ അക്കൗണ്ടിൽ പണം വന്നിട്ടില്ല,,OTHER,LIKELY,LIKELY,OTHER,Malayalam script.,,ADDED_70
+L91,എങ്ങനെ മൊബൈൽ നമ്പർ മാറ്റാം,,OTHER,LIKELY,LIKELY,OTHER,Malayalam script.,,ADDED_70
+L92,నా ఖాతాలో డబ్బు రాలేదు,,OTHER,LIKELY,LIKELY,OTHER,Telugu script.,,ADDED_70
+L93,మొబైల్ నంబర్ ఎలా మార్చాలి,,OTHER,LIKELY,LIKELY,OTHER,Telugu script.,,ADDED_70
+L94,ਮੇਰਾ ਖਾਤਾ ਲੌਗਇਨ ਨਹੀਂ ਹੋ ਰਿਹਾ,,OTHER,LIKELY,LIKELY,OTHER,Gurmukhi script.,,ADDED_70
+L95,ਮੇਰਾ ਰਿਫੰਡ ਕਦੋਂ ਆਵੇਗਾ,,OTHER,LIKELY,LIKELY,OTHER,Gurmukhi script.,,ADDED_70
+L96,મારા ખાતામાં પૈસા આવ્યા નથી,,OTHER,LIKELY,LIKELY,OTHER,Gujarati script.,,ADDED_70
+L97,મોબાઇલ નંબર કેવી રીતે બદલવો,,OTHER,LIKELY,LIKELY,OTHER,Gujarati script.,,ADDED_70
+L98,میرا اکاؤنٹ لاگ ان نہیں ہو رہا,,OTHER,LIKELY,LIKELY,OTHER,Urdu/Arabic script.,,ADDED_70
+L99,मेरे खाते का स्टेटस pending है,,DEV_HI,HUMAN_REVIEW,HUMAN_REVIEW,DEV_HI,Devanagari-dominant but contains Latin “pending”; useful script-dominance boundary.,,ADDED_70
+L100,मेरा account बंद हो गया है,,DEV_HI,HUMAN_REVIEW,HUMAN_REVIEW,DEV_HI,Devanagari with Latin English noun; useful boundary for mixed-script handling.,,ADDED_70

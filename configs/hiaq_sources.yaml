@@ -1,0 +1,46 @@
+# HiAQ-Services corpus sources (spec §6.2; vetting in docs/decisions.md D-031).
+# Only sources whose robots.txt allows crawling AND whose website policy permits reproduction.
+user_agent: "HumanAlign-RAG research crawler (RVCE student project; non-commercial research)"
+min_delay_s: 2.0          # spec §0.1: at most 1 request per 2 s
+timeout_s: 30
+sources:
+  incometax:
+    service: "Income Tax e-filing (Income Tax Department, GoI)"
+    seeds: ["https://www.incometax.gov.in/iec/foportal/help"]
+    # The sitemap lists ~288 English help pages not reachable by static links (D-031).
+    sitemaps: ["https://www.incometax.gov.in/iec/foportal/sitemap.xml"]
+    url_fixes:
+      - ['^http://', 'https://']
+      - ['/iec/foportal/iec/foportal/', '/iec/foportal/']
+    allow:
+      - '^https://www\.incometax\.gov\.in/iec/foportal/help(/[^?#]*)?$'
+      - '^https://www\.incometax\.gov\.in/iec/foportal/[a-z0-9-]*faqs?[a-z0-9-]*$'
+    deny: ['/iec/foportal/(hi|te|kn|ta|ml|gu|bn|pa|mr|or|as|ur)/', '\.(pdf|zip|xlsx?|docx?)$']
+    max_pages: 600
+    max_depth: 4
+    policy_note: "no robots.txt; no automated-access clause; reproduction allowed with acknowledgement; linking needs prior permission (release: cite, do not publish links without permission)"
+  epfo:
+    service: "EPFO provident fund (Employees' Provident Fund Organisation, GoI)"
+    seeds:
+      - "https://www.epfo.gov.in/faq-epfo/"
+      - "https://www.epfo.gov.in/epf-scheme/"
+      - "https://www.epfo.gov.in/pension-scheme-eps/"
+      - "https://www.epfo.gov.in/insurance-scheme-edli/"
+      - "https://www.epfo.gov.in/jeevan-pramaan/"
+      - "https://www.epfo.gov.in/international-workers/"
+    allow: ['^https://www\.epfo\.gov\.in/(faq-epfo|epf-scheme|pension-scheme-eps|insurance-scheme-edli|jeevan-pramaan|international-workers)/?$']
+    deny: []
+    max_pages: 10
+    max_depth: 0
+    policy_note: "robots allows all; live copyright page (epfo.gov.in/copyright-policy, checked 2026-09-27): reproduction free of charge without specific permission, with acknowledgement"
+excluded:
+  npci: "robots.txt: User-agent * Disallow / (also names ClaudeBot, anthropic-ai)"
+  bhimupi: "NPCI-operated; parent organisation disallows all crawlers"
+  digilocker: "robots.txt returns 403 AccessDenied; permission cannot be verified"
+  irctc: "terms forbid copying/reproducing/publishing any information from the website"
+  abdm: "copyright: may not be reproduced partially or fully without permission"
+  uidai: "allowed by robots + copyright, but FAQ content is JS-rendered (no static pages); parked pending team decision"
+  passportindia: "policy could not be verified"
+  parivahan: "live policy (checked 2026-09-27): reproduction only after permission by email to the Web Information Manager; excluded unless the team obtains permission"
+  gst: "related GST sites require prior written permission; tutorial.gst.gov.in policy not verified"
+  india_gov_in: "robots.txt and policy pages return 403 (CDN blocks crawlers)"

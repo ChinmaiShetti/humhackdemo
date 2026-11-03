@@ -1,0 +1,16 @@
+id: D9
+name: cqa_programmers
+role: heldout        # replication R2 (D-072): A unused until the replication freeze
+domain_description: "software development questions (StackExchange question titles)"
+source:
+  repo: mteb/cqadupstack-programmers
+  files:
+    corpus: corpus.jsonl
+    queries: queries.jsonl
+  qrels_files: {test: qrels/test.tsv}
+eval_split: test
+expected:            # docs/replication2_prereg.md §3
+  corpus: 32176
+  eval_queries: 876
+max_queries: 700
+query_sample_seed: 13

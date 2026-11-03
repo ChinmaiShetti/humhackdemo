@@ -1,0 +1,14 @@
+,D1 FiQA (development),D2 Android (primary),D4 HiAQ (exploratory)
+A_overlap,0.542,0.612,0.297
+rho_M1score_overlap,0.108,0.14,-0.03
+rho_H_overlap,0.091,0.168,-0.095
+A_lexical_adv,-0.175,-0.112,-0.123
+M1_overlap,0.696,0.865,0.733
+M1_lexical_adv,0.005,-0.03,0.03
+M1-iso_overlap,0.675,0.849,0.796
+M1-iso_lexical_adv,0.009,-0.024,-0.001
+B0_overlap,0.644,0.838,0.802
+B0_lexical_adv,-0.029,-0.036,-0.076
+B1_overlap,0.652,0.839,0.766
+B1_lexical_adv,-0.021,-0.035,-0.049
+iso_rho_score_overlap,0.099,0.012,0.15

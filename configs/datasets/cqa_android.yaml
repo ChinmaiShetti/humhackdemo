@@ -1,0 +1,16 @@
+id: D2
+name: cqa_android
+role: heldout        # A is sealed until the FREEZE GATE (scope heldout_A)
+domain_description: "Android device support questions (StackExchange question titles)"
+source:
+  repo: mteb/cqadupstack-android
+  files:
+    corpus: corpus.jsonl
+    queries: queries.jsonl
+  qrels_files: {test: qrels/test.tsv}
+eval_split: test
+expected:            # BEIR paper (Thakur et al. 2021), checked at build time
+  corpus: 22998
+  eval_queries: 699
+max_queries: 700
+query_sample_seed: 13

@@ -1,0 +1,6 @@
+id: D4
+name: hiaq
+role: exploratory    # pilot only (prereg §8, A1: < 300 queries); collected batch "group a" (D-065, D-067)
+corpus: data/hiaq/chunks.parquet        # 1,572 chunks (Income Tax + EPFO help pages)
+queries: data/hiaq/collected/2026-10-16_group_a.parquet
+qrels: source chunk of each scenario, grade 2 (spec §6.3); no pooling (A1 item 5)

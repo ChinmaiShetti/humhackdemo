@@ -1,0 +1,23 @@
+# Build-spec §6.3 leakage-check exceptions (D-052; mechanism D-053). Team-approved scenarios kept
+# despite an automatic REJECT, because the source-supported information need requires the flagged
+# word. The checker and its rules are unchanged; these rows still report REJECT.
+#
+# Fail closed (`ha.data.survey.gate_check`): a REJECT is accepted by `ha data hiaq-variants` only
+# if its scenario_id is listed here AND the checker's `reasons` equal `checker_reason` exactly AND
+# sha256(scenario text) equals `scenario_sha256`. Any other REJECT, an EMPTY row, a changed
+# scenario text or a new checker reason still blocks the build. Add an ID only by team decision.
+exceptions:
+  S090:
+    decision: D-052
+    checker_reason: "rare document terms: unmarried"
+    scenario_sha256: 7590d48298cd20398e8b1321b7be82fc2409ebb4e5557a8877d6eb4f54e6228d
+    why: >-
+      The source chunk (EPS nomination FAQ) asks whether an unmarried person can nominate
+      somebody from outside the family; "unmarried" is part of that need.
+  S091:
+    decision: D-052
+    checker_reason: "rare document terms: military"
+    scenario_sha256: 2fc8c7ddd4a4df6b07e384e3eba8675f2d84db40f052d8e9822958e95b2ac7bc
+    why: >-
+      The source chunk says family pension is payable in addition to the Military Pension when
+      the deceased EPS member was an ex-serviceman; "military" is part of that need.

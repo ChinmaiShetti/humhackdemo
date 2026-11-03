@@ -1,0 +1,5 @@
+# Domain descriptions for datasets without a hash-locked dataset config (D-050, decision 3).
+# D1/D2 keep theirs in configs/datasets/<ds>.yaml (hashed in results/PREREG.json; not edited).
+# Used verbatim in the judge prompt's DOMAIN field and in the annotation sheets' `domain` column.
+# Deliberately says nothing about language, code-mixing or query quality (do not prime annotators).
+hiaq: "HiAQ covers questions about Indian digital government services, including income-tax filing and employee provident-fund/pension-related services."

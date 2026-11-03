@@ -1,0 +1,51 @@
+{
+  "verified_at": "2026-09-27T11:45:14+00:00",
+  "ollama": {
+    "qwen3:4b-instruct-2507-q4_K_M": {
+      "role": "generator + judge",
+      "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+      "ollama_version": "0.34.4",
+      "status": "ok",
+      "structured_json_samples": [
+        {
+          "language": "en",
+          "is_question": true
+        },
+        {
+          "language": "hindi",
+          "is_question": false
+        },
+        {
+          "language": "hindi",
+          "is_question": true
+        }
+      ],
+      "seconds_3_calls": 5.41
+    },
+    "bge-m3": {
+      "role": "embeddings (dense): neighbours, C3-C5, C7, strata",
+      "digest": "7907646426070047a77226ac3e684fbbe8410524f7b4a74d02837e43f2146bab",
+      "status": "ok",
+      "dim": 1024,
+      "norms": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cos_en_hinglish": 0.3607
+    }
+  },
+  "hf_local": {
+    "BAAI/bge-reranker-v2-m3": {
+      "role": "neighbour rerank; C5-C7",
+      "local_path": "D:\\ai-models\\local\\bge-reranker-v2-m3",
+      "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+      "scores_relevant_vs_not": [
+        -0.133,
+        -11.031
+      ],
+      "status": "ok",
+      "peak_vram_gib": 1.07
+    }
+  }
+}

@@ -1,0 +1,16 @@
+id: D8
+name: cqa_mathematica
+role: heldout        # replication R2 (D-072): A unused until the replication freeze
+domain_description: "Mathematica questions (StackExchange question titles)"
+source:
+  repo: mteb/cqadupstack-mathematica
+  files:
+    corpus: corpus.jsonl
+    queries: queries.jsonl
+  qrels_files: {test: qrels/test.tsv}
+eval_split: test
+expected:            # docs/replication2_prereg.md §3
+  corpus: 16705
+  eval_queries: 804
+max_queries: 700
+query_sample_seed: 13

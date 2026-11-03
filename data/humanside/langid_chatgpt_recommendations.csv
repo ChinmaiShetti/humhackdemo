@@ -1,0 +1,101 @@
+﻿example_id,chatgpt_recommendation,basis,status
+L01,EN,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L02,EN,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L03,EN,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L04,EN,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L05,EN,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L06,EN,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L07,EN,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L08,EN,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L09,ROM_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L10,ROM_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L11,ROM_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L12,ROM_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L13,ROM_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L14,ROM_HI,"ChatGPT review 2026-09-28 (explicit, high-priority)",chatgpt_recommendation; NOT a human label
+L15,ROM_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L16,HINGLISH,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L17,HINGLISH,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L18,HINGLISH,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L19,HINGLISH,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L20,HINGLISH,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L21,HINGLISH,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L22,HINGLISH,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L23,HINGLISH,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L24,HINGLISH,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L25,HINGLISH,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L26,DEV_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L27,DEV_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L28,DEV_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L29,DEV_HI,"ChatGPT review 2026-09-28 (explicit, high-priority)",chatgpt_recommendation; NOT a human label
+L30,OTHER,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L31,EN,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L32,EN,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L33,EN,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L34,EN,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L35,EN,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L36,EN,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L37,EN,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L38,EN,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L39,EN,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L40,EN,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L41,EN,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L42,EN,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L43,ROM_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L44,ROM_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L45,ROM_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L46,ROM_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L47,ROM_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L48,ROM_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L49,ROM_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L50,ROM_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L51,ROM_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L52,ROM_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L53,ROM_HI,"ChatGPT review 2026-09-28 (explicit, high-priority)",chatgpt_recommendation; NOT a human label
+L54,HINGLISH,"ChatGPT review 2026-09-28 (explicit, high-priority)",chatgpt_recommendation; NOT a human label
+L55,HINGLISH,"ChatGPT review 2026-09-28 (explicit, high-priority)",chatgpt_recommendation; NOT a human label
+L56,HINGLISH,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L57,HINGLISH,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L58,HINGLISH,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L59,HINGLISH,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L60,HINGLISH,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L61,HINGLISH,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L62,HINGLISH,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L63,HINGLISH,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L64,HINGLISH,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L65,HINGLISH,"ChatGPT review 2026-09-28 (explicit, high-priority)",chatgpt_recommendation; NOT a human label
+L66,DEV_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L67,DEV_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L68,DEV_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L69,DEV_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L70,DEV_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L71,DEV_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L72,DEV_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L73,DEV_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L74,DEV_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L75,DEV_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L76,DEV_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L77,DEV_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L78,DEV_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L79,DEV_HI,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L80,OTHER,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L81,OTHER,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L82,OTHER,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L83,OTHER,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L84,OTHER,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L85,OTHER,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L86,OTHER,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L87,OTHER,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L88,DEV_HI,"ChatGPT review 2026-09-28 (explicit, high-priority)",chatgpt_recommendation; NOT a human label
+L89,OTHER,"ChatGPT review 2026-09-28 (explicit, high-priority)",chatgpt_recommendation; NOT a human label
+L90,OTHER,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L91,OTHER,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L92,OTHER,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L93,OTHER,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L94,OTHER,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L95,OTHER,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L96,OTHER,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L97,OTHER,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L98,OTHER,ChatGPT review 2026-09-28 (= provisional_label in langid_review_100.csv),chatgpt_recommendation; NOT a human label
+L99,DEV_HI,"ChatGPT review 2026-09-28 (explicit, high-priority)",chatgpt_recommendation; NOT a human label
+L100,DEV_HI,"ChatGPT review 2026-09-28 (explicit, high-priority)",chatgpt_recommendation; NOT a human label

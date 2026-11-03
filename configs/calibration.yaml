@@ -1,0 +1,10 @@
+# Calibration set: prereg-v1 §4 as amended by A2 (D-059; docs/prereg_amendment_A2_DRAFT.md).
+# prereg-v1 values were: cal_auth {fiqa: 30, hiaq: 30}, synthetic {fiqa: 70, hiaq: 70},
+# split {cal_dev: 120, cal_test: 80}. A2 removes the HiAQ half (no authentic HiAQ data).
+# build_items refuses to run until "### A2 · ..." is recorded under "## Amendments".
+amendment: A2
+seed: 17
+cal_auth: {fiqa: 30, hiaq: 0}       # authentic, forced into R for every split seed (FiQA unchanged)
+synthetic: {fiqa: 70, hiaq: 0}      # half P-std, half P-persona, from seed-0 pools (FiQA unchanged)
+split: {cal_dev: 60, cal_test: 40}  # stratified by dataset x authentic/synthetic (same 60/40 ratio)
+practice_items: 20                  # extra FiQA synthetic items, outside the calibration set

@@ -1,0 +1,37 @@
+# LOCKED prototype model stack (D-020, D-021, D-028). Every model here is on disk.
+# NO MODEL IS EVER DOWNLOADED BY THIS PROJECT'S CODE. Anything new needs team approval first,
+# then a D-entry, then an explicit manual download.
+# `digest` is the full Ollama digest; ha.llm.require_digest() refuses to run on a mismatch.
+
+ollama:
+  - tag: "qwen3:4b-instruct-2507-q4_K_M"          # D-028: non-thinking Qwen3-4B-2507, Q4_K_M
+    digest: "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0"
+    role: "generator + judge"
+    kind: chat
+  - tag: "bge-m3"
+    digest: "7907646426070047a77226ac3e684fbbe8410524f7b4a74d02837e43f2146bab"
+    role: "embeddings (dense): neighbours, C3-C5, C7, strata"
+    kind: embed
+    dim: 1024
+
+hf_local:
+  - id: BAAI/bge-reranker-v2-m3
+    role: "neighbour rerank; C5-C7"
+    revision: 953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e
+    # Existing download whose snapshot files were 0-byte placeholders; `ha models
+    # repair-reranker` builds this folder from NTFS hard links to the cached blobs (D-025).
+    cache_repo: D:\ai-models\hf-cache\models--BAAI--bge-reranker-v2-m3
+    local_path: D:\ai-models\local\bge-reranker-v2-m3
+
+# On disk, NOT used by the core experiment; only for a specific, approved robustness check.
+optional_on_disk:
+  - {tag: "qwen3:4b", note: "= qwen3:4b-thinking-2507-q4_K_M; thinking-only, unusable without thinking (D-028)",
+     digest: "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7"}
+  - {tag: "qwen3:8b", note: "original hybrid Qwen3-8B; alternate-judge robustness candidate",
+     digest: "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41"}
+
+# Listed so nobody re-adds them by accident: need team approval + download (see PLAN.md §1).
+not_downloaded:
+  - BAAI/bge-m3 (HF, ~2.3 GB; sparse / dense+sparse configs) — team said no (2026-09-27)
+  - fastText lid.176 (LID tiebreaker)
+  - qwen3.5:*, llama3.1:8b, gemma3:4b, e5-*, LaBSE, gte, arctic, mMiniLM, MuRIL

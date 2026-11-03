@@ -1,0 +1,17 @@
+id: D1
+name: fiqa
+role: dev            # all design decisions are made here (D-020); A is not sealed
+domain_description: "personal finance questions from StackExchange and Reddit users"
+source:
+  repo: BeIR/fiqa
+  files:
+    corpus: corpus/corpus-00000-of-00001.parquet
+    queries: queries/queries-00000-of-00001.parquet
+  qrels_repo: BeIR/fiqa-qrels
+  qrels_files: {test: test.tsv, train: train.tsv, dev: dev.tsv}
+eval_split: test
+expected:            # BEIR paper (Thakur et al. 2021), checked at build time
+  corpus: 57638
+  eval_queries: 648
+max_queries: 700
+query_sample_seed: 13

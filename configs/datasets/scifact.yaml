@@ -1,0 +1,17 @@
+id: D7
+name: scifact
+role: heldout        # replication R2 (D-072): A unused until the replication freeze
+domain_description: "scientific claims to verify against research abstracts"
+source:
+  repo: BeIR/scifact
+  files:
+    corpus: corpus/corpus-00000-of-00001.parquet
+    queries: queries/queries-00000-of-00001.parquet
+  qrels_repo: BeIR/scifact-qrels
+  qrels_files: {test: test.tsv}
+eval_split: test
+expected:            # docs/replication2_prereg.md §3
+  corpus: 5183
+  eval_queries: 300
+max_queries: 700
+query_sample_seed: 13

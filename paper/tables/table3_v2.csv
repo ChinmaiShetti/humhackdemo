@@ -1,0 +1,4 @@
+dataset,B0,B1,M1,OVL,NN
+D1 FiQA (development),0.534,0.504,0.448,0.636,0.467
+D2 Android (primary),0.619,0.581,0.779,0.802,0.562
+D4 HiAQ (exploratory),0.81,0.761,0.46,0.923,0.733

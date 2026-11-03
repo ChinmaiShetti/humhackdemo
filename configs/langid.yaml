@@ -1,0 +1,13 @@
+# Token-level LID, CMI and language classes (spec §6.5). Thresholds live here; sensitivity ±0.05.
+classes:
+  en_max_hi_share: 0.10      # EN if Hindi share < 0.10
+  rom_hi_min_hi_share: 0.80  # ROM_HI if Hindi share > 0.80 (Latin script)
+  dev_min_script_share: 0.50 # DEV_HI if >= 50% of letter tokens are Devanagari
+  other_min_script_share: 0.50  # OTHER if >= 50% of letter tokens are another non-Latin script
+ambiguity:
+  en_count_min: 50           # a Hindi-lexicon word with FiQA count >= this is ambiguous (to, main, me ...)
+lexicons:
+  hindi: rom_hi.txt
+  english: en_vocab_fiqa.tsv
+  english_count_min: 5
+  named_entities: ne_services.txt

@@ -1,0 +1,101 @@
+﻿example_id,text,source,original_test_label (30 originals only),provisional_label (audit draft),chatgpt_recommendation,human_final_label (HUMAN-CONTROLLED),human_attention,review_status
+L01,digilocker marksheet not showing what to do,ORIGINAL_30,EN,EN,EN,EN,no (spot-check optional),PASS
+L02,how to update mobile number in aadhaar,ORIGINAL_30,EN,EN,EN,EN,no (spot-check optional),PASS
+L03,upi payment failed but money deducted,ORIGINAL_30,EN,EN,EN,EN,no (spot-check optional),PASS
+L04,PF withdrawal status pending for 2 weeks,ORIGINAL_30,EN,EN,EN,EN,no (spot-check optional),PASS
+L05,can i file ITR after due date,ORIGINAL_30,EN,EN,EN,EN,no (spot-check optional),PASS
+L06,forgot my e-filing password,ORIGINAL_30,EN,EN,EN,EN,no (spot-check optional),PASS
+L07,how to link pan with aadhaar online,ORIGINAL_30,EN,EN,EN,EN,no (spot-check optional),PASS
+L08,is my pf account active,ORIGINAL_30,EN,EN,EN,EN,no (spot-check optional),PASS
+L09,mera paisa kat gaya par transaction nahi hua,ORIGINAL_30,ROM_HI,ROM_HI,ROM_HI,ROM_HI,no (spot-check optional),PASS
+L10,aadhaar me naam kaise badle,ORIGINAL_30,ROM_HI,ROM_HI,ROM_HI,ROM_HI,no (spot-check optional),PASS
+L11,pf ka paisa kab tak aayega,ORIGINAL_30,ROM_HI,ROM_HI,ROM_HI,ROM_HI,no (spot-check optional),PASS
+L12,mujhe apna uan nahi pata chal raha,ORIGINAL_30,ROM_HI,ROM_HI,ROM_HI,ROM_HI,no (spot-check optional),PASS
+L13,kya main ghar baithe pan card bana sakta hu,ORIGINAL_30,ROM_HI,ROM_HI,ROM_HI,ROM_HI,no (spot-check optional),PASS
+L14,refund abhi tak kyu nahi aaya,ORIGINAL_30,ROM_HI,ROM_HI,ROM_HI,ROM_HI,YES: team high-priority case; review_status=REVIEW,REVIEW
+L15,otp nahi aa raha hai,ORIGINAL_30,ROM_HI,ROM_HI,ROM_HI,ROM_HI,no (spot-check optional),PASS
+L16,upi payment fail ho gaya par paise kat gaye,ORIGINAL_30,HINGLISH,HINGLISH,HINGLISH,HINGLISH,no (spot-check optional),PASS
+L17,mera account block ho gaya please help,ORIGINAL_30,HINGLISH,HINGLISH,HINGLISH,HINGLISH,no (spot-check optional),PASS
+L18,itr file karna hai but portal slow hai,ORIGINAL_30,HINGLISH,HINGLISH,HINGLISH,HINGLISH,no (spot-check optional),PASS
+L19,passbook download nahi ho raha please help karo,ORIGINAL_30,HINGLISH,HINGLISH,HINGLISH,HINGLISH,no (spot-check optional),PASS
+L20,bank account change karna hai epfo me,ORIGINAL_30,HINGLISH,HINGLISH,HINGLISH,HINGLISH,no (spot-check optional),PASS
+L21,income tax refund status kaise check kare,ORIGINAL_30,HINGLISH,HINGLISH,HINGLISH,HINGLISH,no (spot-check optional),PASS
+L22,digilocker me document nahi dikh raha,ORIGINAL_30,HINGLISH,HINGLISH,HINGLISH,HINGLISH,no (spot-check optional),PASS
+L23,e-kyc complete nahi ho raha kya karu,ORIGINAL_30,HINGLISH,HINGLISH,HINGLISH,HINGLISH,no (spot-check optional),PASS
+L24,mobile number link karne ka process kya hai,ORIGINAL_30,HINGLISH,HINGLISH,HINGLISH,HINGLISH,no (spot-check optional),PASS
+L25,pan card ko aadhaar se kaise link kare,ORIGINAL_30,HINGLISH,HINGLISH,HINGLISH,HINGLISH,no (spot-check optional),PASS
+L26,आधार में मोबाइल नंबर कैसे अपडेट करें,ORIGINAL_30,DEV_HI,DEV_HI,DEV_HI,DEV_HI,no (spot-check optional),PASS
+L27,पीएफ का पैसा कब आएगा,ORIGINAL_30,DEV_HI,DEV_HI,DEV_HI,DEV_HI,no (spot-check optional),PASS
+L28,मेरा रिफंड अभी तक नहीं आया,ORIGINAL_30,DEV_HI,DEV_HI,DEV_HI,DEV_HI,no (spot-check optional),PASS
+L29,UPI से पैसे कट गए लेकिन payment fail,ORIGINAL_30,DEV_HI,DEV_HI,DEV_HI,DEV_HI,YES: team high-priority case; review_status=REVIEW,REVIEW
+L30,ಆಧಾರ್ ಅಪ್ಡೇಟ್ ಹೇಗೆ ಮಾಡುವುದು,ORIGINAL_30,OTHER,OTHER,OTHER,OTHER,no (spot-check optional),PASS
+L31,how can I change the bank account linked to my tax profile,ADDED_70,,EN,EN,EN,no (spot-check optional),LIKELY
+L32,where can I see the status of my refund,ADDED_70,,EN,EN,EN,no (spot-check optional),LIKELY
+L33,my verification code is not arriving,ADDED_70,,EN,EN,EN,no (spot-check optional),LIKELY
+L34,how do I download my contribution statement,ADDED_70,,EN,EN,EN,no (spot-check optional),LIKELY
+L35,I changed jobs and need to move my old savings,ADDED_70,,EN,EN,EN,no (spot-check optional),LIKELY
+L36,my account is locked after several attempts,ADDED_70,,EN,EN,EN,no (spot-check optional),LIKELY
+L37,can I submit the return after the deadline,ADDED_70,,EN,EN,EN,no (spot-check optional),LIKELY
+L38,the document is not visible in the app,ADDED_70,,EN,EN,EN,no (spot-check optional),LIKELY
+L39,I need help checking whether my payment was reversed,ADDED_70,,EN,EN,EN,no (spot-check optional),LIKELY
+L40,how long does it take for the claim to be processed,ADDED_70,,EN,EN,EN,no (spot-check optional),LIKELY
+L41,can I update my phone number online,ADDED_70,,EN,EN,EN,no (spot-check optional),LIKELY
+L42,why is my application still pending,ADDED_70,,EN,EN,EN,no (spot-check optional),LIKELY
+L43,mera mobile number update nahi ho raha,ADDED_70,,ROM_HI,ROM_HI,ROM_HI,no (spot-check optional),LIKELY
+L44,mujhe apna account number nahi mil raha,ADDED_70,,ROM_HI,ROM_HI,ROM_HI,no (spot-check optional),LIKELY
+L45,paise wapas kab tak milenge,ADDED_70,,ROM_HI,ROM_HI,ROM_HI,no (spot-check optional),LIKELY
+L46,mujhe password yaad nahi hai,ADDED_70,,ROM_HI,ROM_HI,ROM_HI,no (spot-check optional),LIKELY
+L47,mera form submit nahi ho raha,ADDED_70,,ROM_HI,ROM_HI,ROM_HI,no (spot-check optional),LIKELY
+L48,kahan se status check karu,ADDED_70,,ROM_HI,ROM_HI,ROM_HI,no (spot-check optional),LIKELY
+L49,mujhe payment ka paisa nahi mila,ADDED_70,,ROM_HI,ROM_HI,ROM_HI,no (spot-check optional),LIKELY
+L50,kya mera account band ho gaya hai,ADDED_70,,ROM_HI,ROM_HI,ROM_HI,no (spot-check optional),LIKELY
+L51,kab tak approval mil jayega,ADDED_70,,ROM_HI,ROM_HI,ROM_HI,no (spot-check optional),LIKELY
+L52,naam galat hai kaise theek karu,ADDED_70,,ROM_HI,ROM_HI,ROM_HI,no (spot-check optional),LIKELY
+L53,otp aa gaya lekin login nahi hua,ADDED_70,,ROM_HI,ROM_HI,ROM_HI,YES: team high-priority case; review_status=HUMAN_REVIEW,HUMAN_REVIEW
+L54,refund ka status kya hai,ADDED_70,,ROM_HI,HINGLISH,HINGLISH,YES: team high-priority case; review_status=HUMAN_REVIEW; ChatGPT recommendation differs from provisional label,HUMAN_REVIEW
+L55,document nahi mil raha,ADDED_70,,ROM_HI,HINGLISH,HINGLISH,YES: team high-priority case; review_status=HUMAN_REVIEW; ChatGPT recommendation differs from provisional label,HUMAN_REVIEW
+L56,mera refund status online check nahi ho raha,ADDED_70,,HINGLISH,HINGLISH,HINGLISH,no (spot-check optional),LIKELY
+L57,account verify karne ke baad bhi login nahi ho raha,ADDED_70,,HINGLISH,HINGLISH,HINGLISH,no (spot-check optional),LIKELY
+L58,mobile number change karna hai but option nahi mil raha,ADDED_70,,HINGLISH,HINGLISH,HINGLISH,no (spot-check optional),LIKELY
+L59,claim submit ho gaya but amount abhi nahi aaya,ADDED_70,,HINGLISH,HINGLISH,HINGLISH,no (spot-check optional),LIKELY
+L60,mujhe old account ko new one se link karna hai,ADDED_70,,HINGLISH,HINGLISH,HINGLISH,no (spot-check optional),LIKELY
+L61,payment successful dikha raha hai but paisa nahi aaya,ADDED_70,,HINGLISH,HINGLISH,HINGLISH,no (spot-check optional),LIKELY
+L62,portal open ho raha hai lekin form load nahi hota,ADDED_70,,HINGLISH,HINGLISH,HINGLISH,no (spot-check optional),LIKELY
+L63,passbook me latest entry show nahi ho rahi,ADDED_70,,HINGLISH,HINGLISH,HINGLISH,no (spot-check optional),LIKELY
+L64,password reset karne ke liye link nahi mil raha,ADDED_70,,HINGLISH,HINGLISH,HINGLISH,no (spot-check optional),LIKELY
+L65,mera request reject ho gaya reason kaise pata chalega,ADDED_70,,HINGLISH,HINGLISH,HINGLISH,YES: team high-priority case; review_status=HUMAN_REVIEW,HUMAN_REVIEW
+L66,आधार में पता कैसे बदलें,ADDED_70,,DEV_HI,DEV_HI,DEV_HI,no (spot-check optional),LIKELY
+L67,मेरा खाता लॉक हो गया है,ADDED_70,,DEV_HI,DEV_HI,DEV_HI,no (spot-check optional),LIKELY
+L68,पासवर्ड याद नहीं है क्या करूँ,ADDED_70,,DEV_HI,DEV_HI,DEV_HI,no (spot-check optional),LIKELY
+L69,पैसे वापस कब मिलेंगे,ADDED_70,,DEV_HI,DEV_HI,DEV_HI,no (spot-check optional),LIKELY
+L70,पीएफ खाते का विवरण कहाँ मिलेगा,ADDED_70,,DEV_HI,DEV_HI,DEV_HI,no (spot-check optional),LIKELY
+L71,आवेदन अभी तक लंबित क्यों है,ADDED_70,,DEV_HI,DEV_HI,DEV_HI,no (spot-check optional),LIKELY
+L72,मोबाइल नंबर अपडेट कैसे करें,ADDED_70,,DEV_HI,DEV_HI,DEV_HI,no (spot-check optional),LIKELY
+L73,मेरी जमा राशि दिखाई नहीं दे रही,ADDED_70,,DEV_HI,DEV_HI,DEV_HI,no (spot-check optional),LIKELY
+L74,लॉगिन नहीं हो रहा है क्या करूँ,ADDED_70,,DEV_HI,DEV_HI,DEV_HI,no (spot-check optional),LIKELY
+L75,क्लेम का पैसा अभी तक नहीं आया,ADDED_70,,DEV_HI,DEV_HI,DEV_HI,no (spot-check optional),LIKELY
+L76,यूपीआई से पैसे कटे लेकिन भुगतान नहीं हुआ,ADDED_70,,DEV_HI,DEV_HI,DEV_HI,no (spot-check optional),LIKELY
+L77,मेरा रिफंड अभी तक नहीं मिला,ADDED_70,,DEV_HI,DEV_HI,DEV_HI,no (spot-check optional),LIKELY
+L78,फॉर्म भरने के बाद आगे क्या करना है,ADDED_70,,DEV_HI,DEV_HI,DEV_HI,no (spot-check optional),LIKELY
+L79,ओटीपी नहीं आ रहा है,ADDED_70,,DEV_HI,DEV_HI,DEV_HI,no (spot-check optional),LIKELY
+L80,বাংলায় আমার অ্যাকাউন্টে টাকা আসেনি,ADDED_70,,OTHER,OTHER,OTHER,no (spot-check optional),LIKELY
+L81,বাংলায় মোবাইল নম্বর কীভাবে বদলাব,ADDED_70,,OTHER,OTHER,OTHER,no (spot-check optional),LIKELY
+L82,ನನ್ನ ಪಾಸ್‌ಬುಕ್ ಕಾಣಿಸುತ್ತಿಲ್ಲ,ADDED_70,,OTHER,OTHER,OTHER,no (spot-check optional),LIKELY
+L83,ಆಧಾರ್‌ನಲ್ಲಿ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ ಹೇಗೆ ಬದಲಾಯಿಸಬೇಕು,ADDED_70,,OTHER,OTHER,OTHER,no (spot-check optional),LIKELY
+L84,ನನ್ನ ಖಾತೆಗೆ ಹಣ ಬಂದಿಲ್ಲ,ADDED_70,,OTHER,OTHER,OTHER,no (spot-check optional),LIKELY
+L85,ಪಾಸ್ವರ್ಡ್ ಮರೆತುಹೋಗಿದೆ ಏನು ಮಾಡಬೇಕು,ADDED_70,,OTHER,OTHER,OTHER,no (spot-check optional),LIKELY
+L86,என் கணக்கில் பணம் வரவில்லை,ADDED_70,,OTHER,OTHER,OTHER,no (spot-check optional),LIKELY
+L87,மொபைல் எண்ணை எப்படி மாற்றுவது,ADDED_70,,OTHER,OTHER,OTHER,no (spot-check optional),LIKELY
+L88,मेरा खाता open नहीं हो रहा,ADDED_70,,DEV_HI,DEV_HI,DEV_HI,YES: team high-priority case; review_status=HUMAN_REVIEW,HUMAN_REVIEW
+L89,ನನ್ನ PF status pending ಇದೆ,ADDED_70,,OTHER,OTHER,OTHER,YES: team high-priority case; review_status=HUMAN_REVIEW,HUMAN_REVIEW
+L90,എന്റെ അക്കൗണ്ടിൽ പണം വന്നിട്ടില്ല,ADDED_70,,OTHER,OTHER,OTHER,no (spot-check optional),LIKELY
+L91,എങ്ങനെ മൊബൈൽ നമ്പർ മാറ്റാം,ADDED_70,,OTHER,OTHER,OTHER,no (spot-check optional),LIKELY
+L92,నా ఖాతాలో డబ్బు రాలేదు,ADDED_70,,OTHER,OTHER,OTHER,no (spot-check optional),LIKELY
+L93,మొబైల్ నంబర్ ఎలా మార్చాలి,ADDED_70,,OTHER,OTHER,OTHER,no (spot-check optional),LIKELY
+L94,ਮੇਰਾ ਖਾਤਾ ਲੌਗਇਨ ਨਹੀਂ ਹੋ ਰਿਹਾ,ADDED_70,,OTHER,OTHER,OTHER,no (spot-check optional),LIKELY
+L95,ਮੇਰਾ ਰਿਫੰਡ ਕਦੋਂ ਆਵੇਗਾ,ADDED_70,,OTHER,OTHER,OTHER,no (spot-check optional),LIKELY
+L96,મારા ખાતામાં પૈસા આવ્યા નથી,ADDED_70,,OTHER,OTHER,OTHER,no (spot-check optional),LIKELY
+L97,મોબાઇલ નંબર કેવી રીતે બદલવો,ADDED_70,,OTHER,OTHER,OTHER,no (spot-check optional),LIKELY
+L98,میرا اکاؤنٹ لاگ ان نہیں ہو رہا,ADDED_70,,OTHER,OTHER,OTHER,no (spot-check optional),LIKELY
+L99,मेरे खाते का स्टेटस pending है,ADDED_70,,DEV_HI,DEV_HI,DEV_HI,YES: team high-priority case; review_status=HUMAN_REVIEW,HUMAN_REVIEW
+L100,मेरा account बंद हो गया है,ADDED_70,,DEV_HI,DEV_HI,DEV_HI,YES: team high-priority case; review_status=HUMAN_REVIEW,HUMAN_REVIEW

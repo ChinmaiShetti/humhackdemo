@@ -1,0 +1,23 @@
+DOMAIN: {{ domain_description }}
+
+SOURCE PASSAGE (the TEST QUERY was generated from it):
+"""{{ passage }}"""
+
+{% if neighbours %}REAL USER QUERIES FOR SIMILAR NEEDS (typed by real users; order is random):
+{% for n in neighbours %}{{ loop.index }}. {{ n }}
+{% endfor %}{% endif %}TEST QUERY: "{{ query }}"
+DETECTED LANGUAGE: {{ lang_class }}
+
+Rate the TEST QUERY from 1 to 5 on each criterion.
+
+F  Fidelity: 5 = the passage fully answers it; 3 = partly; 1 = it does not.
+H  Human-likeness: 5 = matches the real queries in length, wording, register, abbreviations, typos and level of detail; 3 = plausible but noticeably more formal or complete; 1 = reads like an exam question, documentation heading or chatbot prompt.
+S  Natural specificity: 5 = uses only words and details a user would know BEFORE reading the passage; 3 = one passage-specific term or detail; 1 = relies on passage-only terminology, exact figures, conditions or steps.
+P  Need plausibility: 5 = a common need among users of this service; 3 = occasional; 1 = an obscure detail only someone reading the document would think to ask.
+C  Code-mix naturalness: only if the TEST QUERY or the real queries are not pure English, else null. 5 = mixing and spelling look like natural Indian typing; 3 = understandable but slightly stiff; 1 = mechanically swapped words, formal/Sanskritised transliteration, or unnatural grammar.
+
+Do not reward copying a real query. Similar length and tone are good; identical wording is not.
+Then give keep (true/false) and one reason from:
+ok, not_answerable, too_document_like, over_specific, implausible_need, unnatural_code_mix, near_duplicate_of_real.
+
+Return only JSON matching the schema.

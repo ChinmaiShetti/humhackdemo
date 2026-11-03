@@ -1,0 +1,3 @@
+# HiAQ scenario sheet (D-038): per-service quotas set by the team; one author (the team lead).
+scenario_quota: {incometax: 75, epfo: 75}
+author: team

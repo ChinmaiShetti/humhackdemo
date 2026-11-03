@@ -1,0 +1,26 @@
+# Retrieval configurations C1-C7 (prereg-v1 §5.3). Hashed into FROZEN.json at the freeze gate.
+retrieval_depth: 100                 # every run keeps the top-100 (Recall@100)
+passage_text: title_newline_text     # "title\ntext" (title omitted when empty)
+bm25: {lower: true, stopwords: en, stemmer: null, method: lucene}
+dense:
+  num_ctx: 8192                      # bge-m3 model limit: passages untruncated up to it (§5.3, D-039)
+  truncate: true                     # only affects passages longer than 8192 tokens
+  batch_size: 32
+  search: exact_inner_product        # FAISS IndexFlatIP on L2-normalised vectors = exact cosine
+rerank: {depth: 50, max_length: 512, batch_size: 32, fp16: true}
+configs:
+  C1: {type: bm25, k1: 0.9, b: 0.4}
+  C2: {type: bm25, k1: 1.2, b: 0.75}
+  C3: {type: dense}
+  C4: {type: rrf, inputs: [C1, C3], k: 60}
+  C5: {type: rerank, input: C3}
+  C6: {type: rerank, input: C1}
+  C7: {type: rerank, input: C4}
+metrics: ["ndcg@10", "mrr@10", "hit_rate@1", "hit_rate@5", "recall@100"]   # ranx; ndcg = linear gain
+latency: {sample_size: 200, sample_seed: 13, repeats: 3}
+e0_reference:                        # D-022 / D-010 as amended; D1 (dev) only
+  fiqa:
+    C1: {metric: "ndcg@10", value: 0.236, tol: 0.02, gate: true,
+         source: "BEIR (Thakur et al., NeurIPS 2021 D&B), BM25 on FiQA-2018"}
+    C3: {metric: "ndcg@10", value: 0.413, tol: 0.03, gate: false,
+         source: "DRAMA (arXiv 2502.18460) Table 7, M3-BGE-Dense on FiQA; warning only"}

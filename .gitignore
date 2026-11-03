@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Secrets / local config
+.env
+
+# Large or regenerable artefacts (all live on D: under the repo)
+data/*
+!data/humanside/
+cache/
+logs/
+results/runs/
+results/unseal_log.jsonl.lock
+dist/
+*.parquet
+!results/tables/*.parquet
+
+# Tool leftovers
+.deepeval/
+.ipynb_checkpoints/

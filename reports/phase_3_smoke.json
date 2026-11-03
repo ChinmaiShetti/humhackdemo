@@ -1,0 +1,117 @@
+{
+  "started_at": "2026-09-28T10:04:05+00:00",
+  "model": "qwen3:4b-instruct-2507-q4_K_M",
+  "checks": {
+    "valid_nonempty": true,
+    "cache_hit_on_repeat": true,
+    "deterministic_uncached_repeat": false,
+    "failure_raised_for_bad_model": "ResponseError"
+  },
+  "samples": [
+    {
+      "pool": "P-std",
+      "i": 0,
+      "query": "Why is using a local credit union more convenient than using Bank of America when dealing with account issues?",
+      "filter": null,
+      "cache_hit_on_repeat": true,
+      "deterministic_uncached_repeat": false,
+      "prompt_tokens": 107
+    },
+    {
+      "pool": "P-std",
+      "i": 1,
+      "query": "Would an interview question about Jesus be appropriate for a job interview?",
+      "filter": null,
+      "cache_hit_on_repeat": true,
+      "deterministic_uncached_repeat": true,
+      "prompt_tokens": 127
+    },
+    {
+      "pool": "P-std",
+      "i": 2,
+      "query": "What should you do to verify a request from a bank?",
+      "filter": null,
+      "cache_hit_on_repeat": true,
+      "deterministic_uncached_repeat": true,
+      "prompt_tokens": 67
+    },
+    {
+      "pool": "P-persona",
+      "i": 0,
+      "query": "help me find a local credit union near me that doesn’t have an automated phone system",
+      "filter": null,
+      "cache_hit_on_repeat": true,
+      "deterministic_uncached_repeat": true,
+      "prompt_tokens": 123,
+      "persona": "a busy office worker typing quickly on a phone"
+    },
+    {
+      "pool": "P-persona",
+      "i": 1,
+      "query": "what should i say if jesus is asked in an interview?",
+      "filter": null,
+      "cache_hit_on_repeat": true,
+      "deterministic_uncached_repeat": false,
+      "prompt_tokens": 137,
+      "persona": "a college student"
+    },
+    {
+      "pool": "P-persona",
+      "i": 2,
+      "query": "call in to the bank using a publicly available number to verify the request",
+      "filter": "copies_first_sentence",
+      "cache_hit_on_repeat": true,
+      "deterministic_uncached_repeat": true,
+      "prompt_tokens": 83,
+      "persona": "a busy office worker typing quickly on a phone"
+    },
+    {
+      "pool": "P-fewshot",
+      "i": 0,
+      "query": "what is better than bank of america for local customer service",
+      "filter": null,
+      "cache_hit_on_repeat": true,
+      "deterministic_uncached_repeat": true,
+      "prompt_tokens": 155,
+      "exemplar_qids": [
+        "r0",
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ]
+    },
+    {
+      "pool": "P-fewshot",
+      "i": 1,
+      "query": "what should I say if asked about religion in a job interview",
+      "filter": null,
+      "cache_hit_on_repeat": true,
+      "deterministic_uncached_repeat": true,
+      "prompt_tokens": 171,
+      "exemplar_qids": [
+        "r0",
+        "r1",
+        "r2",
+        "r3",
+        "r5"
+      ]
+    },
+    {
+      "pool": "P-fewshot",
+      "i": 2,
+      "query": "how to verify a bank request over the phone",
+      "filter": "copies_first_sentence",
+      "cache_hit_on_repeat": true,
+      "deterministic_uncached_repeat": true,
+      "prompt_tokens": 111,
+      "exemplar_qids": [
+        "r0",
+        "r1",
+        "r2",
+        "r3",
+        "r5"
+      ]
+    }
+  ]
+}

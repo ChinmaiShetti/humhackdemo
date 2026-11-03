@@ -1,0 +1,17 @@
+# HumanAlign judge (spec §9; PLAN v2 P4). Frozen into results/FROZEN.json at the P4/P5 gates.
+model:
+  tag: "qwen3:4b-instruct-2507-q4_K_M"
+  digest: "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0"
+  think: false
+prompt:
+  version: v0        # iterate v0..v4 on cal-dev only (spec §9.4)
+  system: judge_v0_system
+  user: judge_v0_user
+decoding:            # spec §9.2
+  temperature: 0
+  seed: 0
+  num_ctx: 4096
+neighbours: {k: 5, candidates: 30, near_duplicate_cos: 0.97}
+permutations: {base: 2, extra_if_diff_ge: 2, max: 3, aggregate: median}
+gate: {dimension: F, min: 4}
+weights: null        # learned by NNLS on cal-dev (P4.4); null until then

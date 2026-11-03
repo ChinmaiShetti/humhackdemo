@@ -1,0 +1,17 @@
+id: D6
+name: nfcorpus
+role: heldout        # replication R1 (D-069): A unused until the replication freeze
+domain_description: "nutrition and medical questions (NutritionFacts.org)"
+source:
+  repo: BeIR/nfcorpus
+  files:
+    corpus: corpus/corpus-00000-of-00001.parquet
+    queries: queries/queries-00000-of-00001.parquet
+  qrels_repo: BeIR/nfcorpus-qrels
+  qrels_files: {test: test.tsv}
+eval_split: test
+expected:            # BEIR (Thakur et al. 2021); docs/replication_prereg.md §3
+  corpus: 3633
+  eval_queries: 323
+max_queries: 700
+query_sample_seed: 13

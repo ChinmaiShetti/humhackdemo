@@ -1,0 +1,13 @@
+dataset,method,tau_b,ci_low,ci_high,source
+D2 Android (primary),M1,0.779,0.478,0.791,heldout-cqa_android
+D2 Android (primary),M1-iso,0.543,0.326,0.657,heldout-cqa_android
+D2 Android (primary),B0,0.619,0.537,0.628,heldout-cqa_android
+D2 Android (primary),B1,0.581,0.506,0.589,heldout-cqa_android
+D1 FiQA (development),M1,0.448,0.352,0.562,dev-fiqa
+D1 FiQA (development),M1-iso,0.467,0.333,0.543,dev-fiqa
+D1 FiQA (development),B0,0.534,0.439,0.594,dev-fiqa
+D1 FiQA (development),B1,0.504,0.41,0.57,dev-fiqa
+D4 HiAQ (exploratory),M1,0.46,0.019,0.561,exploratory-hiaq
+D4 HiAQ (exploratory),M1-iso,0.691,0.305,0.69,exploratory-hiaq
+D4 HiAQ (exploratory),B0,0.81,0.583,0.745,exploratory-hiaq
+D4 HiAQ (exploratory),B1,0.761,0.524,0.686,exploratory-hiaq
