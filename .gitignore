@@ -19,6 +19,7 @@ results/unseal_log.jsonl.lock
 dist/
 *.parquet
 !results/tables/*.parquet
+app/web
 
 # Tool leftovers
 .deepeval/
